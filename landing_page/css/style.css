@@ -1,0 +1,134 @@
+.header {
+  background-color: #F0F8FF;
+  background-image: url("../dog-header"); 
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 140px 0 100px; 
+}
+
+@media (min-width:576px) {
+  .header {
+    padding: 200px 0;
+  }
+}
+
+.header p {
+  color: blue;
+}
+
+.chapabutton {
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+body {
+  color: #4a4a4a;
+}
+
+.first_section {
+  background-color: white;
+
+}
+
+.first-section img {
+  margin-bottom: 35px;
+}
+
+
+@media (min-width: 768px) {
+  .first-section img {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .first-section img {
+    margin-bottom: 0;
+  }
+}
+.section {
+  padding: 60px 0 40px;
+}
+
+@media (min-width: 576px) {
+  .section {
+    padding: 100px 0;
+  }
+}
+
+
+h1 {
+  color: black;
+  font-size: 36px;
+
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+ul {
+  background-color: #DAECEF;
+}
+
+.second-section {
+  color: #3e4344;
+}
+.second-section-image {
+  height: 75px;
+  width: 75px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+
+}
+
+.second-section p {
+  color: #9DA2A6
+
+}
+
+.nav-item {
+  margin: 1px 30px;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.third_section {
+  background-color: white;
+
+}
+
+.third-section img {
+  margin-top: 35px;
+}
+
+@media (min-width: 768px) {
+  .third-section img {
+    margin-top: 0px;
+  }
+}
+
+.fourth_section {
+  background-color: #F0F8FF;
+  background-image: url("../images/dogs-pattern.png"); 
+  background-repeat: repeat;
+  color: #40493e;
+  padding: 192px 192px; 
+}
+
+footer {
+  background-color: white;
+  padding: 35px 0;
+}
+
+.footer-logo {
+  height: 22px;
+  margin-bottom: 3px;
+  width: 22px;
+}

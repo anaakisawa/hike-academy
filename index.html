@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head> 
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title>Cachorros - Os animais mais queridos do mundo</title>
+ <link rel="stylesheet" href="landing_page/css/style.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="modal" id="saveModal" tabindex="-1" role="dialog">
+
+    <div class="adoption_form">
+    <div class="container-fluid">
+      <div class="row">
+      </div>
+    </div>
+  </div>
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal_title">Sobre você</h5>
+        </div>
+        <div class="modal-body">
+          <p> Deixe suas informações para adotar seu melhor amigo </p>
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label">Nome:</label>
+              <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="recipient-email" class="col-form-label">Email:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="form-group">
+            <label for="message-telephone" class="col-form-label">Telefone:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">
+            Save changes
+          </button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+      <div class="container navbar-brand">
+        <a class="navbar-brand" href="#">
+          <img src="images/dog-icon.png" width="30" height="30" class="" alt="dog logo">  Dogs
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto rogerio">
+          <li class="nav-item">
+            <a class="nav-link" id="sobre" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Por que cachorros?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Alimentação</a>
+          </li>  
+          <li class="nav-item">
+            <a class="btn btn-outline-primary my-2 my-sm-0" data-toggle="modal" data-target="#saveModal" href="#">Adotar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header class="header">
+      <div class="container text-center">
+        <div class="row">
+          <h1>Cachorros tornam sua vida mais feliz</h1>
+        </div>  
+      <div class="row">  
+        <p> A chave para uma vida feliz é ter um cachorro</p>
+      </div>
+      <div class="row">
+        <a class="btn btn-primary btn-lg button" data-toggle="modal" data-target="#saveModal"> Adotar</a>
+      </div>  
+    </div>  
+  </header>
+  <div class="section first-section">
+    <div class="container">
+      <div class="row justify-content-around align-items-center">
+        <div class="left col-12 col-lg-5">
+          <img src="landing_page/dog-first-section.webp" alt="Cute dog" class="rounded img-fluid">
+        </div>
+        <div class="right col-12 col-lg-5">
+          <h2>A fidelidade em forma de quatro patas</h2>
+          <p>Não é muito difícil convencer alguém de que nossos companheiros de quatro patas são os animais mais incríveis do mundo.</p>
+          <p>Aqui estão alguns dos motivos:</p>
+          <ul>
+            <li>Vão estar ao seu lado sempre que mais precisar</li>
+            <li>Sempre tentam fazer o máximo para agradar seu dono</li>
+            <li>Ficam incrivelmente felizes e agitados quando você chega em casa</li>
+            <li>Estão sempre demonstrando carinho, de um jeito ou de outro</li>
+          </ul>
+        </div>
+      </div> 
+    </div>
+  </div>
+  <div class="section second-section">
+    <div class="container">
+      <div class="row justify-content-around align-items-center">
+        <div id="devoram" class="col-12 col-sm-10 col-md-8 col-lg-5"> 
+          <h2 id="ana">Devoram tudo!</h2>
+          <p>É bem fácil agradar um dog com comida. Aqui estão alguns exemplos de coisas que deixam eles com água na boca:</p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-12 col-sm-6 col-lg-">
+          <img src="images/broccoli_ic.png" class="second-section-image">
+          <h2>Brócolis</h2>
+          <p> Um vegetal cultivado desde a época do império Romano, rico em cálcio,ferro e vitaminas </p>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-">
+          <img src="images/popsicles_ic.png"
+          class="second-section-image">
+          <h2> Sorvete </h2>
+          <p> Um pedaço doce e gelado de sabor encaixado num palito </p>
+        </div>  
+        <div class="col-12 col-sm-6 col-lg-">
+          <img src="images/popcorn_ic.png" class="second-section-image">
+          <h2> Pipoca </h2> 
+          <p> Um milho mágico, que estoura quando é aquecido e todo mundo ama</p>
+        </div> 
+        <div class="col-12 col-sm-6 col-lg-"> 
+          <img src="images/watermelon_ic.png" class="second-section-image">
+          <h2> Melancia </h2>
+          <p> Talvez a fruta mais suculenta que a humanidade já conheceu.E os dogs também </p>
+        </div>
+      </div>  
+    </div>  
+  </div>  
+    <div class="section third-section">
+      <div class="container">
+        <div class="row justify-content-around align-items-center">
+          <div class="col-6 col-md-5">
+              <h2>Sempre divertidos</h2>
+              <p> Jogue essa bolinha pra mim? Posso brincar com seu chinelo?</p>
+              <a class="btn btn-primary btn-lg button" data-toggle="modal" data-target="#saveModal"> Adotar</a>  
+          </div>
+          <div class="col-6 col-md-5">
+            <img src="images/dog-third-section.png" alt="Cute dog" class="rounded img-fluid">
+          </div>
+        </div>     
+      </div>    
+     </div>  
+   <div class="fourth_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 text-center">
+          <h1>Adote um cãozinho e ame-o pra sempre.</h1>
+          <p> Você só vive uma vez.</p>
+          <a class="btn btn-primary btn-lg" data-toggle="modal" data-target="#saveModal"> Adotar</a> 
+        </div>
+        <div class="col-6 text-center">
+          <img src="images/dogs-pattern.png" alt="background" class="body">
+        </div>
+      </div>  
+     </div>     
+    </div>    
+
+    <footer class="text-center">
+  <small>Feito com amor <span><img class="footer-logo" src="images/hike-logo-small.png" alt=""></span> por um Hiker.</small>
+</footer>
+
+        
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"> 
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">    
+  </script>
+  <script>
+  $('#saveModal').on('show.bs.modal', function (event) {
+    var button = $(event.relatedTarget)  var recipient = button.data('whatever')
+    var modal = $(this)
+    modal.find('.modal-title').text('New message to ' + recipient)
+  modal.find('.modal-body input').val(recipient)
+})
+  </script>
+</body>
+</html>
+
