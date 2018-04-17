@@ -1,11 +1,11 @@
 .header {
   background-color: #F0F8FF;
-  background-image: url("../dog-header"); 
+  background-image: url("../dog-header");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   color: white;
-  padding: 140px 0 100px; 
+  padding: 140px 0 100px;
 }
 
 @media (min-width:576px) {
@@ -116,10 +116,10 @@ ul {
 
 .fourth_section {
   background-color: #F0F8FF;
-  background-image: url("../images/dogs-pattern.png"); 
+  background-image: url("../../images/dogs-pattern.png");
   background-repeat: repeat;
   color: #40493e;
-  padding: 192px 192px; 
+  padding: 192px 192px;
 }
 
 footer {
